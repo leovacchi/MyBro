@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Carga las tareas almacenadas en la página
     cargarTareas();
+    cargarTransacciones();
 
     agregarTareaBtn.addEventListener("click", function () {
         const nuevaTareaTexto = nuevaTareaInput.value.trim();
@@ -166,6 +167,6 @@ document.addEventListener("DOMContentLoaded", function () {
             return total + transaccion.cantidad;
         }, 0);
 
-        totalDineroEnMano.textContent = `Dinero en Mano: $${saldoTotal.toFixed(2)}`;
+        totalDineroEnMano.textContent = `Efectivo: $${saldoTotal.toFixed(2)}`;
     }
 });
