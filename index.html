@@ -8,13 +8,14 @@
 <body style="padding-top: 70px">
 <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+      
+      <a class="navbar-brand" href="#"><font id="totalDineroEnMano">Dinero en Mano: $0.00</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><font id="totalDineroEnMano">Dinero en Mano: $0.00</font></h5>
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MyBro App</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -24,6 +25,16 @@
           
             <button class="btn btn-primary" type="button" id="agregarTarea">Agregar</button>
           </form>
+           
+    <div class="container mt-4">
+      <h6>Lista de Tareas Diarias</h6>
+      
+      <ul id="listaTareas" class="list-group">
+          <!-- Las tareas se agregan aquí dinámicamente -->
+      </ul>
+      <hr>
+  </div>
+
         </div>
       </div>
     </div>
@@ -35,16 +46,7 @@
 
 
 
-    
-    <div class="container mt-4">
-        <h6>Lista de Tareas Diarias</h6>
-        
-        <ul id="listaTareas" class="list-group">
-            <!-- Las tareas se agregan aquí dinámicamente -->
-        </ul>
-        <hr>
-    </div>
-
+   
 
     <section id="inga">
         <div class="container mt-4">
